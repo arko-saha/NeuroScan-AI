@@ -8,3 +8,5 @@ ipykernel
 scikit-learn
 pandas
 seaborn
+kagglehub
+gdown

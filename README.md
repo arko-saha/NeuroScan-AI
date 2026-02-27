@@ -41,7 +41,9 @@
 -   Python 3.8+
 -   Virtual Environment (Recommended)
 
-### 2. Setup
+### 2. Quick Setup (Automated)
+This project includes a setup script to automate the download of the Kaggle dataset and pre-trained model weights.
+
 ```bash
 # Clone the repository
 git clone https://github.com/arko-saha/Brain-Tumor-Detection-from-MRIs-using-Deep-Learning-techniques
@@ -49,10 +51,18 @@ cd Brain-Tumor-Detection-from-MRIs-using-Deep-Learning-techniques
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Run automated setup (Downloads dataset & model)
+python scripts/setup.py
 ```
 
-### 3. Model Deployment
-Ensure the pre-trained model (`model_vgg.h5`) is placed in the `models/` directory.
+> [!NOTE]
+> For the dataset download, ensure you have your `kaggle.json` API key configured or follow the prompts from `kagglehub`.
+
+### 3. Manual Setup (Alternative)
+If you prefer manual setup:
+-   Download the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) and place contents in `data/`.
+-   Download the [Model Weights](https://drive.google.com/file/d/1iZWY3yfwzLOtnq4OzoSK1HZSgnByTD3u/view?usp=sharing) and place them in `models/model_vgg.h5`.
 
 ### 4. Running the Application
 ```bash
