@@ -35,9 +35,11 @@ def setup_model():
     
     model_path = os.path.join(model_dir, "model_vgg.h5")
     
-    # Google Drive ID from the user's previous README
-    # Original link: https://drive.google.com/file/d/1iZWY3yfwzLOtnq4OzoSK1HZSgnByTD3u/view?usp=sharing
-    file_id = "1iZWY3yfwzLOtnq4OzoSK1HZSgnByTD3u"
+    # Load from .env if available, otherwise use fallback
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    file_id = os.getenv("GDRIVE_FILE_ID", "1iZWY3yfwzLOtnq4OzoSK1HZSgnByTD3u")
     url = f'https://drive.google.com/uc?id={file_id}'
     
     if not os.path.exists(model_path):

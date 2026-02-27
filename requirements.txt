@@ -10,3 +10,4 @@ pandas
 seaborn
 kagglehub
 gdown
+python-dotenv

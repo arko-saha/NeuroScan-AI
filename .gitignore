@@ -11,6 +11,8 @@ __pycache__/
 env/
 venv/
 .env
+.env.local
+.env.*
 
 # Application files
 app/images/*
