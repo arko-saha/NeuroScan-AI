@@ -83,8 +83,3 @@ The project uses the [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/m
 ## 👨‍💻 Author
 **Arko Saha**  
 [LinkedIn](https://www.linkedin.com/in/arko-saha/) | [GitHub](https://github.com/arko-saha)
-
----
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
