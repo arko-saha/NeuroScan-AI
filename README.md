@@ -1,7 +1,5 @@
 # NeuroScan AI: Brain Tumor Detection from MRI
 
-![NeuroScan Banner](https://ibb.co/bjNTXTh1)
-
 ## 🚀 Overview
 **NeuroScan AI** is a professional-grade medical imaging application that leverages Deep Learning to detect and classify brain tumors from MRI scans. Developed using **TensorFlow/Keras**, the system classifies MRI images into four distinct categories with high precision, providing a robust interface for researchers and clinicians to interact with neural network predictions.
 
